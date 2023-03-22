@@ -2,7 +2,7 @@
 export default{
   data(){
     return{
-      title: 'La mia prima App con Vite'
+      title: 'La mia prima App con Vite !'
     }
   }
 }
@@ -14,7 +14,7 @@ export default{
 </template>
 <style scoped>
 .container{
-    width: 700px;
+    width: 750px;
     margin: 0 auto;
     background-color: pink;
     color:cornflowerblue;

@@ -16,8 +16,12 @@ export default{
 </template>
 <style scoped>
 .container{
-    width: 700px;
+    width: 750px;
     margin: 0 auto;
+}
+.img{
+    width: 750px;
+    height: 750px;
 }
 img{
     width: 100%;
