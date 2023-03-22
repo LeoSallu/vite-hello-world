@@ -2,25 +2,24 @@
 export default{
   data(){
     return{
-      title: 'La mia prima App con Vite'
+      img: 'src/assets/img-1.jpeg'
     }
   }
 }
 </script>
 <template>
     <div class="container">
-        <h1>{{title}}</h1>
+        <div class="img">       
+            <img :src="img" alt="img">
+        </div>
     </div>
 </template>
 <style scoped>
 .container{
     width: 700px;
     margin: 0 auto;
-    background-color: pink;
-    color:cornflowerblue;
 }
-h1{
-    text-align: center;
+img{
+    width: 100%;
 }
-
 </style>
